@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "messageId": "0195f3b8-0a2b-7c3d-9e4f-a1b2c3d4e5ff",
+  "gatewayId": "gw-emulator-01",
+  "type": "GATEWAY_STATUS",
+  "sentAt": "2026-09-25T10:13:59.500Z",
+  "bootId": "0195f3b8-0a2b-7c3d-9e4f-a1b2c3d4e5f6",
+  "payload": {
+    "state": "OFFLINE"
+  },
+  "signature": null
+}

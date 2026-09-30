@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://senso.dev/schemas/mqtt/payloads/security-event.v1.json",
+  "title": "SECURITY_EVENT payload v1",
+  "description": "Anomaly detected by the gateway IDS. deviceId may be absent for gateway-level events. Unknown codes are accepted and displayed as-is.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["severity", "code", "message", "detectedAt"],
+  "properties": {
+    "deviceId": { "type": "string", "pattern": "^[a-z0-9-]{1,64}$" },
+    "severity": { "enum": ["INFO", "WARNING", "CRITICAL"] },
+    "code": { "type": "string", "pattern": "^[A-Z0-9_]{3,64}$" },
+    "message": { "type": "string", "minLength": 1, "maxLength": 2000 },
+    "detectedAt": { "type": "string", "format": "date-time" },
+    "detector": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1, "maxLength": 64 },
+        "version": { "type": "string", "maxLength": 32 }
+      }
+    },
+    "details": {
+      "type": "object",
+      "maxProperties": 32
+    }
+  }
+}

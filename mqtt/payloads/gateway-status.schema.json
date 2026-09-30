@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://senso.dev/schemas/mqtt/payloads/gateway-status.v1.json",
+  "title": "GATEWAY_STATUS payload v1",
+  "description": "Gateway lifecycle state. The Last Will message is registered on connect with state OFFLINE and the current bootId.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["state"],
+  "properties": {
+    "state": { "enum": ["ONLINE", "DEGRADED", "OFFLINE"] },
+    "firmware": { "type": "string", "maxLength": 64 },
+    "uptimeSec": { "type": "integer", "minimum": 0 },
+    "deviceCount": { "type": "integer", "minimum": 0 },
+    "queueDepth": { "type": "integer", "minimum": 0 }
+  }
+}

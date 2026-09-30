@@ -1,0 +1,3520 @@
+{
+  "schemaVersion": 1,
+  "messageId": "0195f3c2-7d1e-7a4b-9c11-2b6f0e5a8d3a",
+  "gatewayId": "gw-emulator-01",
+  "type": "TELEMETRY",
+  "sentAt": "2026-09-25T10:15:30.120Z",
+  "bootId": "0195f3b8-0a2b-7c3d-9e4f-a1b2c3d4e5f6",
+  "payload": {
+    "samples": [
+      {
+        "deviceId": "sensor-000",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-001",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-002",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-003",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-004",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-005",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-006",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-007",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-008",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-009",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-010",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-011",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-012",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-013",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-014",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-015",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-016",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-017",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-018",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-019",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-020",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-021",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-022",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-023",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-024",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-025",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-026",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-027",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-028",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-029",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-030",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-031",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-032",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-033",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-034",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-035",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-036",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-037",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-038",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-039",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-040",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-041",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-042",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-043",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-044",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-045",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-046",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-047",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-048",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-049",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-050",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-051",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-052",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-053",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-054",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-055",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-056",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-057",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-058",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-059",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-060",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-061",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-062",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-063",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-064",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-065",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-066",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-067",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-068",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-069",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-070",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-071",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-072",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-073",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-074",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-075",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-076",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-077",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-078",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-079",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-080",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-081",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-082",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-083",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-084",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-085",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-086",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-087",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-088",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-089",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-090",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-091",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-092",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-093",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-094",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-095",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-096",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-097",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-098",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-099",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-100",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-101",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-102",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-103",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-104",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-105",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-106",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-107",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-108",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-109",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-110",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-111",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-112",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-113",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-114",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-115",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-116",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-117",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-118",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-119",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-120",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-121",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-122",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-123",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-124",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-125",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-126",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-127",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-128",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-129",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-130",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-131",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-132",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-133",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-134",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-135",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-136",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-137",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-138",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-139",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-140",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-141",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-142",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-143",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-144",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-145",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-146",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-147",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-148",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-149",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-150",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-151",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-152",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-153",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-154",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-155",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-156",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-157",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-158",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-159",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-160",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-161",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-162",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-163",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-164",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-165",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-166",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-167",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-168",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-169",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-170",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-171",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-172",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-173",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-174",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-175",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-176",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-177",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-178",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-179",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-180",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-181",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-182",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-183",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-184",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-185",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-186",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-187",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-188",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-189",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-190",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-191",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-192",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-193",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-194",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-195",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-196",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-197",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-198",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-199",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-200",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-201",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-202",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-203",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-204",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-205",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-206",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-207",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-208",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-209",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-210",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-211",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-212",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-213",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-214",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-215",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-216",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-217",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-218",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-219",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-220",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-221",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-222",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-223",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-224",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-225",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-226",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-227",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-228",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-229",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-230",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-231",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-232",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-233",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-234",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-235",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-236",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-237",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-238",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-239",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-240",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-241",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-242",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-243",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-244",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-245",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-246",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-247",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-248",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-249",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-250",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-251",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-252",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-253",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-254",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-255",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-256",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-257",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-258",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-259",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-260",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-261",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-262",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-263",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-264",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-265",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-266",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-267",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-268",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-269",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-270",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-271",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-272",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-273",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-274",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-275",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-276",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-277",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-278",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-279",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-280",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-281",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-282",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-283",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-284",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-285",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-286",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-287",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-288",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-289",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-290",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-291",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-292",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-293",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-294",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-295",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-296",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-297",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-298",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-299",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-300",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-301",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-302",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-303",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-304",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-305",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-306",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-307",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-308",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-309",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-310",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-311",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-312",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-313",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-314",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-315",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-316",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-317",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-318",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-319",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-320",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-321",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-322",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-323",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-324",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-325",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-326",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-327",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-328",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-329",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-330",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-331",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-332",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-333",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-334",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-335",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-336",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-337",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-338",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-339",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-340",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-341",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-342",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-343",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-344",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-345",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-346",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-347",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-348",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-349",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-350",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-351",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-352",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-353",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-354",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-355",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-356",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-357",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-358",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-359",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-360",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-361",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-362",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-363",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-364",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-365",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-366",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-367",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-368",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-369",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-370",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-371",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-372",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-373",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-374",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-375",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-376",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-377",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-378",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-379",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-380",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-381",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-382",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-383",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-384",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-385",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-386",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-387",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-388",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-389",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-390",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-391",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-392",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-393",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-394",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-395",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-396",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-397",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-398",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-399",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-400",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-401",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-402",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-403",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-404",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-405",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-406",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-407",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-408",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-409",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-410",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-411",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-412",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-413",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-414",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-415",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-416",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-417",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-418",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-419",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-420",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-421",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-422",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-423",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-424",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-425",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-426",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-427",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-428",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-429",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-430",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-431",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-432",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-433",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-434",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-435",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-436",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-437",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-438",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-439",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-440",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-441",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-442",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-443",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-444",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-445",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-446",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-447",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-448",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-449",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-450",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-451",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-452",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-453",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-454",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-455",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-456",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-457",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-458",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-459",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-460",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-461",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-462",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-463",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-464",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-465",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-466",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-467",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-468",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-469",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-470",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-471",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-472",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-473",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-474",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-475",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-476",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-477",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-478",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-479",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-480",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-481",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-482",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-483",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-484",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-485",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-486",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-487",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-488",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-489",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-490",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-491",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-492",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-493",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-494",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-495",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-496",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-497",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-498",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-499",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      },
+      {
+        "deviceId": "sensor-500",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": {
+          "temperature": 4.2
+        }
+      }
+    ]
+  },
+  "signature": null
+}

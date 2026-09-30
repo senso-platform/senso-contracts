@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "messageId": "0195f3c2-7d1e-7a4b-9c11-2b6f0e5a8d37",
+  "gatewayId": "gw-emulator-01",
+  "type": "DEVICE_INVENTORY",
+  "sentAt": "2026-09-25T10:14:00.000Z",
+  "bootId": "0195f3b8-0a2b-7c3d-9e4f-a1b2c3d4e5f6",
+  "seq": 2,
+  "payload": {
+    "devices": [
+      {
+        "deviceId": "sensor-fridge-01",
+        "deviceType": "TEMPERATURE",
+        "capabilities": [
+          { "metric": "temperature", "unit": "CEL" },
+          { "metric": "humidity", "unit": "PCT" }
+        ]
+      },
+      {
+        "deviceId": "sensor-hall-02",
+        "deviceType": "AIR_QUALITY",
+        "capabilities": [
+          { "metric": "temperature", "unit": "CEL" },
+          { "metric": "co2_ppm", "unit": "PPM" }
+        ]
+      }
+    ]
+  },
+  "signature": null
+}

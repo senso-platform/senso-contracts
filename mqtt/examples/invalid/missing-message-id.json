@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "gatewayId": "gw-emulator-01",
+  "type": "TELEMETRY",
+  "sentAt": "2026-09-25T10:15:30.120Z",
+  "bootId": "0195f3b8-0a2b-7c3d-9e4f-a1b2c3d4e5f6",
+  "payload": {
+    "samples": [
+      {
+        "deviceId": "sensor-fridge-01",
+        "ts": "2026-09-25T10:15:29.500Z",
+        "metrics": { "temperature": 4.2 }
+      }
+    ]
+  },
+  "signature": null
+}

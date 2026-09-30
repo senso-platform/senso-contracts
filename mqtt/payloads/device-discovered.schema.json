@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://senso.dev/schemas/mqtt/payloads/device-discovered.v1.json",
+  "title": "DEVICE_DISCOVERED payload v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["deviceId", "deviceType"],
+  "properties": {
+    "deviceId": { "type": "string", "pattern": "^[a-z0-9-]{1,64}$" },
+    "deviceType": { "type": "string", "pattern": "^[A-Z0-9_]{2,32}$" },
+    "capabilities": {
+      "type": "array",
+      "maxItems": 50,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["metric"],
+        "properties": {
+          "metric": { "type": "string", "pattern": "^[a-z][a-z0-9_]{0,63}$" },
+          "unit": { "type": "string", "minLength": 1, "maxLength": 32 }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "maxProperties": 32
+    }
+  }
+}

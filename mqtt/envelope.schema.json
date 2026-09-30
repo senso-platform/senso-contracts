@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://senso.dev/schemas/mqtt/envelope.v1.json",
+  "title": "SensoBazaar MQTT envelope v1",
+  "description": "Common envelope for every gateway message. The payload is validated separately against the schema selected by `type` (see payloads/). Field `gatewayId` must equal the MQTT username and the topic segment. Corresponds to ADR-0001 §6.2 and INIT-PLAN phase 0 (bootId required, DEVICE_INVENTORY added).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "messageId", "gatewayId", "type", "sentAt", "bootId", "payload"],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "messageId": {
+      "type": "string",
+      "format": "uuid",
+      "description": "UUID v7. Preserved on retransmission - the idempotency key."
+    },
+    "gatewayId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]{3,64}$",
+      "description": "External id of the gateway; equals the MQTT username and topic segment."
+    },
+    "type": {
+      "enum": ["TELEMETRY", "DEVICE_DISCOVERED", "DEVICE_INVENTORY", "SECURITY_EVENT", "GATEWAY_STATUS"]
+    },
+    "sentAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 UTC with milliseconds. Rejected at ingest when more than 5 minutes in the future."
+    },
+    "bootId": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{8,64}$",
+      "description": "Identifies the gateway process boot (recommend UUID v7). Allows the platform to distinguish a stale Last Will from the current session."
+    },
+    "seq": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Monotonic per-gateway counter, optional, diagnostics only."
+    },
+    "payload": {
+      "type": "object",
+      "description": "Type-specific body, validated against payloads/<type>.schema.json"
+    },
+    "signature": {
+      "description": "null in MVP. From S5: Ed25519 signature over the canonical JSON of the envelope without this field.",
+      "default": null,
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["alg", "kid", "value"],
+          "properties": {
+            "alg": { "enum": ["ed25519"] },
+            "kid": { "type": "string", "minLength": 1, "maxLength": 64 },
+            "value": { "type": "string", "minLength": 1, "maxLength": 256 }
+          }
+        }
+      ]
+    }
+  }
+}

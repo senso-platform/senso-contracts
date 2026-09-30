@@ -1,0 +1,34 @@
+name: validate
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  mqtt-examples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install jsonschema
+      - name: Validate MQTT examples
+        run: python scripts/validate_examples.py
+
+  openapi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install openapi-spec-validator pyyaml
+      - name: Lint OpenAPI
+        run: >
+          python -c "
+          import yaml;
+          from openapi_spec_validator import validate;
+          validate(yaml.safe_load(open('openapi/senso-api.v1.yaml')));
+          print('OpenAPI OK')
+          "

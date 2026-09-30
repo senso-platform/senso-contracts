@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://senso.dev/schemas/mqtt/payloads/telemetry.v1.json",
+  "title": "TELEMETRY payload v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["samples"],
+  "properties": {
+    "samples": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 500,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["deviceId", "ts", "metrics"],
+        "properties": {
+          "deviceId": { "type": "string", "pattern": "^[a-z0-9-]{1,64}$" },
+          "ts": { "type": "string", "format": "date-time" },
+          "metrics": {
+            "type": "object",
+            "minProperties": 1,
+            "maxProperties": 20,
+            "additionalProperties": { "type": "number" }
+          }
+        }
+      }
+    }
+  }
+}

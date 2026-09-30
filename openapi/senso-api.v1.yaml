@@ -1,0 +1,243 @@
+openapi: 3.1.0
+info:
+  title: SensoBazaar API
+  version: 1.0.0
+  description: >
+    MVP REST API. Contract-first: backend controllers and frontend client are
+    generated from this file (ADR-0001 §9). Errors are RFC 9457 Problem Details.
+    Sprint 1 scope: auth stubs, users/me, debug telemetry endpoint (removed in S3).
+servers:
+  - url: /api/v1
+    description: Same-origin behind nginx; dev via Vite proxy
+
+tags:
+  - name: auth
+    description: Public endpoints (register/login/refresh)
+  - name: users
+    description: Current user profile
+  - name: debug
+    description: Sprint-1 demo endpoints, profile-gated on the server
+
+paths:
+  /auth/register:
+    post:
+      tags: [auth]
+      operationId: register
+      summary: Create a user account
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterRequest'
+      responses:
+        '201':
+          description: Account created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserDto'
+        default:
+          $ref: '#/components/responses/Problem'
+
+  /auth/login:
+    post:
+      tags: [auth]
+      operationId: login
+      summary: Exchange credentials for an access JWT; refresh token set via HttpOnly cookie
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginRequest'
+      responses:
+        '200':
+          description: Authenticated
+          headers:
+            Set-Cookie:
+              description: 'refresh token cookie: HttpOnly; Secure; SameSite=Strict; Path=/api/v1/auth'
+              schema:
+                type: string
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+        '401':
+          $ref: '#/components/responses/Problem'
+        default:
+          $ref: '#/components/responses/Problem'
+
+  /users/me:
+    get:
+      tags: [users]
+      operationId: getCurrentUser
+      summary: Profile of the authenticated user
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Current user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserDto'
+        default:
+          $ref: '#/components/responses/Problem'
+
+  /debug/devices/{gatewayId}/{deviceId}/latest:
+    get:
+      tags: [debug]
+      operationId: getDebugLatestMeasurements
+      summary: >
+        TEMPORARY (Sprint 1 demo, removed in S3). Latest stored measurement per metric.
+        Served only under the local profile; deviceId here is the raw gateway-side id.
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: gatewayId
+          in: path
+          required: true
+          schema:
+            type: string
+            pattern: '^[a-z0-9-]{3,64}$'
+        - name: deviceId
+          in: path
+          required: true
+          schema:
+            type: string
+            pattern: '^[a-z0-9-]{1,64}$'
+      responses:
+        '200':
+          description: Latest values, one per metric
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MeasurementDto'
+        default:
+          $ref: '#/components/responses/Problem'
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: RS256 access token, 15 minutes (ADR-0001 §10.1)
+
+  schemas:
+    RegisterRequest:
+      type: object
+      additionalProperties: false
+      required: [email, displayName, password]
+      properties:
+        email:
+          type: string
+          format: email
+          maxLength: 254
+        displayName:
+          type: string
+          minLength: 1
+          maxLength: 128
+        password:
+          type: string
+          format: password
+          minLength: 10
+          maxLength: 128
+
+    LoginRequest:
+      type: object
+      additionalProperties: false
+      required: [email, password]
+      properties:
+        email:
+          type: string
+          format: email
+        password:
+          type: string
+          format: password
+
+    LoginResponse:
+      type: object
+      required: [accessToken, tokenType, expiresInSeconds]
+      properties:
+        accessToken:
+          type: string
+          description: Signed JWT (RS256)
+        tokenType:
+          type: string
+          const: Bearer
+        expiresInSeconds:
+          type: integer
+          const: 900
+
+    UserDto:
+      type: object
+      required: [id, email, displayName, roles, createdAt]
+      properties:
+        id:
+          type: string
+          format: uuid
+        email:
+          type: string
+          format: email
+        displayName:
+          type: string
+        roles:
+          type: array
+          items:
+            type: string
+            enum: [USER, ADMIN]
+        createdAt:
+          type: string
+          format: date-time
+
+    MeasurementDto:
+      type: object
+      required: [deviceId, metric, value, ts]
+      properties:
+        deviceId:
+          type: string
+          description: Gateway-side external device id (debug only, not the platform UUID)
+        metric:
+          type: string
+        value:
+          type: number
+        ts:
+          type: string
+          format: date-time
+
+    Problem:
+      type: object
+      description: RFC 9457 application/problem+json
+      required: [type, title, status]
+      properties:
+        type:
+          type: string
+          examples: ['https://senso.dev/problems/validation-failed']
+        title:
+          type: string
+        status:
+          type: integer
+        detail:
+          type: string
+        instance:
+          type: string
+        traceId:
+          type: string
+        errors:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              type: string
+
+  responses:
+    Problem:
+      description: Error (RFC 9457)
+      content:
+        application/problem+json:
+          schema:
+            $ref: '#/components/schemas/Problem'
