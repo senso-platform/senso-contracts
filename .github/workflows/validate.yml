@@ -25,10 +25,10 @@ jobs:
           python-version: '3.12'
       - run: pip install openapi-spec-validator pyyaml
       - name: Lint OpenAPI
-        run: >
+        run: |-
           python -c "
-          import yaml;
-          from openapi_spec_validator import validate;
-          validate(yaml.safe_load(open('openapi/senso-api.v1.yaml')));
+          import yaml
+          from openapi_spec_validator import validate
+          validate(yaml.safe_load(open('openapi/senso-api.v1.yaml')))
           print('OpenAPI OK')
           "
