@@ -2,7 +2,7 @@ name: validate
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [main, devContracts]
 
 jobs:
   mqtt-examples:
@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install jsonschema
+      - run: pip install "jsonschema[format]"
       - name: Validate MQTT examples
         run: python scripts/validate_examples.py
 

@@ -18,7 +18,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from jsonschema import Draft202012Validator, FormatError
+from jsonschema import Draft202012Validator
 
 ROOT = Path(__file__).resolve().parent.parent
 MQTT = ROOT / "mqtt"
